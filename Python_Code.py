@@ -90,12 +90,12 @@
 
 
 #dict and set
-name = {'jack': 1, 'hellen': 2, 'jack': 3}
-print name.get('jack')
-
-year1 = set([1,2,4])
-print year1
-year2 = set([1,3])
-print year2
-print year1 & year2
-print year1 | year2
+#name = {'jack': 1, 'hellen': 2, 'jack': 3}
+#print name.get('jack')
+#
+#year1 = set([1,2,4])
+#print year1
+#year2 = set([1,3])
+#print year2
+#print year1 & year2
+#print year1 | year2
