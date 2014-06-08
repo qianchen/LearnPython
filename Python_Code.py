@@ -53,13 +53,49 @@
 #classmates.pop()
 #print classmates
 
-python = []
-print len(python)
-ruby = ['hello', 'world']
-python = ['hello', 123, ruby, False]
-print python[2][1]
+#python = []
+#print len(python)
+#ruby = ['hello', 'world']
+#python = ['hello', 123, ruby, False]
+#print python[2][1]
+#
+#Ruby = ('hello', 'world', python)
+#print Ruby
+#Ruby[2][2][0] = 'die'
+#print Ruby
 
-Ruby = ('hello', 'world', python)
-print Ruby
-Ruby[2][2][0] = 'die'
-print Ruby
+#sum = 0
+#for i in range(101):
+#    sum = sum + i
+#print sum
+#
+#sum = 0
+#n = 99
+#while n > 0:
+#    sum += n
+#    n -= 2
+#print sum
+#
+#sum = 0
+#bMark = False
+#if sum > 100:
+#    bMark = False
+#elif sum > 0:
+#    bMark = False
+#else:
+#    bMark = True
+#
+#if bMark == True:
+#    print "sum is no meaning"
+
+
+#dict and set
+name = {'jack': 1, 'hellen': 2, 'jack': 3}
+print name.get('jack')
+
+year1 = set([1,2,4])
+print year1
+year2 = set([1,3])
+print year2
+print year1 & year2
+print year1 | year2
